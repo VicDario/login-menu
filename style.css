@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login {
+    margin: 50px;
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow:  -22px 22px 50px #a6a6a6,
+                22px -22px 50px #ffffff;
+}
+
+.login .login_left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .login_left h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    padding-bottom: 70px;
+}
+
+.login .login_left .login_left--social-media {
+    display: flex;
+}
+
+.login .login_left .login_left--social-media .social-container {
+    border: 1px solid #e1e2e3;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    text-align: center;
+}
+.login .login_left .login_left--social-media a svg{
+    padding-top: 5px;
+    width: 30px;
+    height: 30px;
+    color: black;
+}
+.login .login_left .login_left--social-media a + a {
+    padding-left: 20px;
+}
+
+.login .login_left .login_left--input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.login .login_left .login_left--input p {
+    font-size: 1.2rem;
+    font-weight: 200;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.login .login_left .login_left--input input {
+    border: hidden;
+    border-radius: 3px;
+    background-color: #e1e2e3;
+    padding: 10px;
+}
+
+.login .login_left .login_left--input input + input{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.login .login_left .login_left--input input::placeholder {
+    font-size: 1.2rem;
+    color: #7d7979;
+}
+.login .login_left .login_left--input a {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.login .login_left .login_left--input button {
+    background-color: #ff4555;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    border: hidden;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.login .login_right {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 50%;
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,fc474b+0,ff426b+100 */
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(left,  #1e5799 0%, #fc474b 0%, #ff426b 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #1e5799 0%,#fc474b 0%,#ff426b 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #1e5799 0%,#fc474b 0%,#ff426b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#ff426b',GradientType=1 ); /* IE6-9 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.login .login_right h2 {
+    font-size: 4rem;
+    padding-bottom: 20px;
+}
+
+.login .login_right p {
+    font-size: 1.4rem;
+    font-weight: 200;
+}
